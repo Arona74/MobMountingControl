@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "mobmountingcontrol",
+  "version": "1.0.0",
+  "name": "Mob Mounting Control",
+  "description": "Controls which entities can mount vehicles using blacklists and whitelists",
+  "authors": [
+    "Arona74"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Arona74/mobmountingcontrol",
+    "sources": "https://github.com/Arona74/mobmountingcontrol"
+  },
+  "license": "MIT",
+  "icon": "assets/mobmountingcontrol/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.arona74.mobmountingcontrol.MobMountingControl"
+    ]
+  },
+  "mixins": [
+    "mobmountingcontrol.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric-api": "*",
+    "minecraft": "1.20.1"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.arona74.mobmountingcontrol.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "mobmountingcontrol.refmap.json",
+  "mixins": [
+    "EntityMountMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
